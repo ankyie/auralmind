@@ -1,0 +1,24 @@
+# AuralMind Backend Dependencies
+# Install with: pip install -r requirements.txt
+# Tested with Python 3.12-3.14 on Windows 11
+
+# Web Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.9.0
+python-dotenv>=1.0.0
+
+# Audio Processing
+librosa>=0.10.0
+faster-whisper>=1.0.0
+soundfile>=0.12.0
+
+# Numerical (pre-built wheels on PyPI, no Fortran compiler needed)
+numpy>=1.26.0
+scipy>=1.13.0
+
+# CPU-only PyTorch (for ≤2GB VRAM systems)
+# Install separately: pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+torch>=2.4.0
+torchaudio>=2.4.0

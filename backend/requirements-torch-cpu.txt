@@ -1,0 +1,4 @@
+# CPU-only PyTorch installation for ≤2GB VRAM systems
+# Install with: pip install -r requirements-torch-cpu.txt
+torch==2.7.0+cpu --index-url https://download.pytorch.org/whl/cpu
+torchaudio==2.7.0+cpu --index-url https://download.pytorch.org/whl/cpu
